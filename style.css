@@ -1,0 +1,37 @@
+a:link   
+{   
+ text-decoration:none;   
+}   
+
+.logo{
+	vertical-align: middle;
+}
+
+.barra_superior{
+	background: #fff;
+	font-family: 'Raleway', sans-serif; 
+	color: black;
+	display: inline-block;
+	font-weight: bold; 
+}
+
+.menu{
+	list-style-type: none;
+	margin: 0px;
+	padding: right: 20px;
+	float: right;
+	position: relative;
+	font-size: 10px;
+}
+
+.home{
+	background-image: url("file://C:/Users/Lupita/Coderhouse/Nivel 1/TP1 - Clase 1/Imagenes/Fondohome.jpg");
+	background-size: 100% 600px;
+	background-repeat: no-repeat;
+}
+
+.buscador{
+	position: center;
+	float: center;
+	text-align: center;
+}

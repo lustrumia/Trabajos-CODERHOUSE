@@ -3,26 +3,31 @@
 <meta charset="utf-8">
 	<head>
 		<title>Primer TP</title>
+		<link rel="stylesheet" type="text/css" href="style.css">
+		<link rel="stylesheet" type="text/css" href="reset.css">
+		<link href="https://fonts.googleapis.com/css?family=Raleway" rel="stylesheet">
 	</head>
 	
 	<body>
-		<header>
+		<header class="barra_superior">
 			<nav>
 				<a href="index.html">
-					<img src="imagenes/logo.png">
+					<img class="logo" src="imagenes/Logo.png" heigt="25px" width="25px">HOSTRO
 				</a>
 
-				<ul>
-					<li><a href="index.html">Home</a></li>
-					<li><a href="contact.html">Contacto</a></li>
-				</ul>
+				<div class="menu">
+					<ul>
+						<li><a href="index.html">Home</a></li>
+						<li><a href="contact.html">Contacto</a></li>
+					</ul>
+				</div>
 			</nav>
 		</header>
 
-		<section>
-			<img src="imagenes/portada.png">
-
-			<form name="searchbox" action="">
+		<section class="home">
+			<h2>Regular Updates</h2>
+			<p>Lorem ipsum...</p>
+			<form class="buscador" name="searchbox" action="">
  				<input name="buscar" type="text" placeholder="¿Qué estás buscando?">
     			<input name="submit" type="submit" value="Buscar">
 			</form>

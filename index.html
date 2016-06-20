@@ -1,12 +1,13 @@
 <!DOCTYPE HTML>
 <html>
-<meta charset="utf-8">
-	<head>
-		<title>Primer TP</title>
-		<link rel="stylesheet" type="text/css" href="style.css">
-		<link rel="stylesheet" type="text/css" href="reset.css">
-		<link href="https://fonts.googleapis.com/css?family=Raleway" rel="stylesheet">
-	</head>
+<head>
+	<meta charset="utf-8">
+	<title>Primer TP</title>
+	<link rel="stylesheet" type="text/css" href="style.css">
+	<link href="https://fonts.googleapis.com/css?family=Open+Sans|Raleway" rel="stylesheet">
+	<link rel="stylesheet" type="text/css" href="http://code.ionicframework.com/ionicons/2.0.1/css/ionicons.min.css">
+	<link rel="stylesheet" type="text/css" href="reset.css">
+</head>
 	
 	<body>
 		<header class="barra_superior">
@@ -17,7 +18,7 @@
 
 				<div class="menu">
 					<ul>
-						<li><a href="index.html">Home</a></li>
+						<li class="menu_home"><a href="index.html">Home</a></li>
 						<li><a href="contact.html">Contacto</a></li>
 					</ul>
 				</div>
@@ -25,61 +26,87 @@
 		</header>
 
 		<section class="home">
-			<h2>Regular Updates</h2>
-			<p>Lorem ipsum...</p>
-			<form class="buscador" name="searchbox" action="">
- 				<input name="buscar" type="text" placeholder="¿Qué estás buscando?">
-    			<input name="submit" type="submit" value="Buscar">
-			</form>
+
+			<div class="titulo">
+				<h2>Regular Updates</h2>
+				
+				<p class="subtitulo">
+					Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nulla sollicitudin ornare leo.
+				</p>
+
+				<div class="hombre_titulo">
+					<img class="hombre" src="imagenes/hombre.png">
+				</div>
+			</div>
+			
 		</section>
 
+		<section class="form">
+				<form name="searchbox" action="">
+	 				<input class="barrabuscador" name="buscar" type="text" placeholder="Enter your domain">
+	    			<div class="search">
+	    			<span class="ion-android-search"></span><input name="submit" class="searchbutton" type="submit" value="Search">
+	    			</div>
+				</form>
+		</section>
+		
 		<section>
-			<div>					
-				<ul>
-					<li>
-						<article>
-							<img src="http://placehold.it/50x50">
-							<h2>Título del primer cuadro</h2>
+			<ul class="productos">
+				<li>
+					<article>
+						<div class="productoI">
+							<span class="ion-speedometer"></span>
+						</div>
+						<h2>Speed servers</h2>
+						<p>
+							Lorem ipsum dolor sit amet, consectetur
+						</p>
+					</article>
+				</li>
+
+				<li>
+					<article>
+						<div class="productoII">
+							<span class="ion-ios-list-outline"></span>
+						</div>
+						<h2>Hostro services</h2>
+						<p>
+							Lorem ipsum dolor sit amet, consectetur
+						</p>
+					</article>
+				</li>
+
+				<li>
+					<article>
+						<div class="productoIII">
+							<span class="ion-ios-chatboxes-outline"></span>
+							</div>
+							<h2>Live support</h2>
 							<p>
-							Texto del primer cuadro
+							Lorem ipsum dolor sit amet, consectetur
 							</p>
 						</article>
 					</li>
 
 					<li>
 						<article>
-							<img src="http://placehold.it/50x50">
-							<h2>Título del segundo cuadro</h2>
+							<div class="productoIV">
+								<span class="ion-ios-checkmark-outline"></span>
+							</div>
+							<h2>Get domain name</h2>
 							<p>
-							Texto del segundo cuadro
+								Lorem ipsum dolor sit amet, consectetur
 							</p>
 						</article>
 					</li>
+				</ul>
+			</section> 
 
-					<li>
-						<article>
-							<img src="http://placehold.it/50x50">
-							<h2>Título del tercer cuadro</h2>
-							<p>
-							Texto del tercer cuadro
-							</p>
-						</article>
-					</li>
+			<div class="separador">
+			<span class="ion-ios-more"></span>
+			</div>
 
-					<li>
-						<article>
-							<img src="http://placehold.it/50x50">
-							<h2>Título del cuarto cuadro</h2>
-							<p>
-							Texto del cuarto cuadro
-							</p>
-						</article>
-					</li>
-					</ul>
-				</div>
-			</section>
-
-			<section>
+<!--			<section>
 				<div>
 					<h2>Título de la página</h2>
 					<p>
@@ -244,5 +271,7 @@
 					<div><a href="index.html">Home</a>
 						 <a href="contact.html">Contact</a>
 				</footer>
+
+				-->
 	</body>
 </html>

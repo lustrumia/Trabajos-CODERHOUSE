@@ -1,37 +1,200 @@
-a:link   
-{   
- text-decoration:none;   
-}   
+body{
+	position: relative;
+}
 
 .logo{
 	vertical-align: middle;
 }
 
 .barra_superior{
-	background: #fff;
 	font-family: 'Raleway', sans-serif; 
 	color: black;
-	display: inline-block;
 	font-weight: bold; 
+	width: 75%;
+	margin: 0 auto;
+	margin-top: 15px;
+	text-decoration: none;
 }
 
 .menu{
 	list-style-type: none;
-	margin: 0px;
-	padding: right: 20px;
 	float: right;
-	position: relative;
 	font-size: 10px;
+	margin-top: 8px;
+}
+
+.menu li{
+	display: inline-block;
+}
+
+.menu_home{
+	margin-right: 20px;
 }
 
 .home{
+	width: 100%;
 	background-image: url("file://C:/Users/Lupita/Coderhouse/Nivel 1/TP1 - Clase 1/Imagenes/Fondohome.jpg");
-	background-size: 100% 600px;
+	background-size: 100%;
 	background-repeat: no-repeat;
+	height: 350px;
+	margin-top: 15px;
+	position: relative;
+	color: #F2F2F2;
 }
 
-.buscador{
-	position: center;
-	float: center;
+.titulo {
+	font-family: 'Raleway', sans-serif;
+	width: 60%;
+	margin: 0 auto;
+}
+
+.titulo h2{
+	font-size: 30px;
+	font-weight: bold; 
+	margin-bottom: 20px;
+	padding-top: 50px;
+}
+
+.subtitulo{
+	font-size: 15px;
+	width: 40%;
+	line-height: 30px;
+	font-weight: lighter; 
+	display: inline-block;
+	padding-right: 150px;
+}
+
+.hombre_titulo{
+	position: absolute; bottom: 0;
+	display: inline-block;
+}
+
+.hombre{
+	-moz-transform: scaleX(-1);
+	-o-transform: scaleX(-1);
+	-webkit-transform: scaleX(-1);
+	transform: scaleX(-1);
+	-ms-filter: "FlipH";
+	filter: FlipH;
+}
+
+.search {
+	background-color: #00ADF2;
+	color: white;
+	border: 0;
+	padding: 15px;
+	display: inline-block;
+	font-size: 10px;
+	margin: 0 auto;
+}
+
+.searchbutton{
+	background-color: #00ADF2;
+	color: white;
+	border: 0;
+	text-transform: uppercase;
+	font-size: 10px;
+	margin-left: 0px;
+}
+
+.barrabuscador{
+	width: 55%;
+	height: 37px;
+	border-width: 3px;
+	border-style: solid;
+	border-color:#E5E5E7;
+	margin-right: 0px;
+	font-family: 'Open Sans', sans-serif;
+}
+
+.form form{
+	width: 75%;
+	float: right;
+}
+
+.form{
+	height: 45px;
+	display: inline-block;
+	margin: 0 auto;
+	width: 100%;
+}
+
+.productos{
 	text-align: center;
+	line-height: 15px;
+	font-size: 10px;
+	font-family: 'Open Sans', sans-serif;
+	color: #333;
+	position: relative;
+	margin-top: 25px;
+}
+
+.productos h2{
+	font-weight: bold;
+	font-family: 'Open Sans', sans-serif;
+	text-transform: uppercase;
+	font-size: 12px;
+	padding-top: 15px;
+	padding-bottom: 10px;
+}
+
+.productoI{
+	background-color: #00D7FE;
+	width: 60px;
+    height: 60px;
+    border-radius: 50%;
+    display: inline-block;
+}
+
+.productoII{
+	background-color: #FAD502;
+	width: 60px;
+    height: 60px;
+    border-radius: 50%;
+    display: inline-block;
+}
+
+.productoIII{
+	background-color: #FF9456;
+	width: 60px;
+    height: 60px;
+    border-radius: 50%;
+    display: inline-block;
+}
+
+.productoIV{
+	background-color: #FF5F3D;
+	width: 60px;
+    height: 60px;
+    border-radius: 50%;
+    display: inline-block;
+}
+
+.productos li article span{
+	font-size: 35px;
+	color: #FFF;
+}
+
+.productos li article{
+	float: left;
+}
+
+.productos li{
+	display: inline-block;
+}
+
+.productos li article p{
+	width: 80%;
+	display: inline-block;
+	margin: 0 auto;
+	padding-bottom: 25px;
+}
+
+.separador{
+	text-align: center;
+}
+.ion-ios-more{
+	color: #00ADF2;
+	font-size: 40px;
+	width: 10%;
 }

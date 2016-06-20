@@ -198,3 +198,31 @@ body{
 	font-size: 40px;
 	width: 10%;
 }
+
+
+.productoI:hover{ 
+    -webkit-transform: scale(1.35);
+    transform: scale(1.35)
+}
+
+.productoII:hover{ 
+    -webkit-transform: scale(1.35);
+    transform: scale(1.35)
+}
+
+.productoIII:hover{ 
+    -webkit-transform: scale(1.35);
+    transform: scale(1.35)
+}
+
+.productoIV:hover{ 
+    -webkit-transform: scale(1.35);
+    transform: scale(1.35)
+}
+.productoI, .productoII, .productoIII, .productoIV{
+	-webkit-transition: 1.3s ease-in-out;
+    -moz-transition: 1.3s ease-in-out;
+    -o-transition: 1.3s ease-in-out;
+    transition: 1.3s ease-in-out;
+
+
